@@ -1,21 +1,21 @@
 body {
-    background-color: lightblue;
+    background-color: red;
 }
 
-@media screen and (min-width: 675px) {
+@media screen and (max-width: 1080px) {
     body {
-        background-color: blue;
+        background-color: orange;
     }
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (max-width: 550px) {
     body {
-        background-color: darkblue;
+        background-color: yellow;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 400px) {
     body {
-        background-color: indigo;
+        background-color: green;
     }
 }
